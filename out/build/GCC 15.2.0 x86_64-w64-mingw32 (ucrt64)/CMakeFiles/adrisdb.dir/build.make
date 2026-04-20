@@ -96,7 +96,7 @@ adrisdb_EXTERNAL_OBJECTS =
 adrisdb.exe: CMakeFiles/adrisdb.dir/src/main.cpp.obj
 adrisdb.exe: CMakeFiles/adrisdb.dir/build.make
 adrisdb.exe: include/database/libdatabase.a
-adrisdb.exe: external/glfw/src/libglfw3.a
+adrisdb.exe: src/database/util/libbytebuffer.a
 adrisdb.exe: CMakeFiles/adrisdb.dir/linkLibs.rsp
 adrisdb.exe: CMakeFiles/adrisdb.dir/objects1.rsp
 adrisdb.exe: CMakeFiles/adrisdb.dir/link.txt

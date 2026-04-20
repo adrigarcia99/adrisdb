@@ -1,1 +1,1 @@
--IC:/dev/adrisdb/include/database -IC:/dev/adrisdb/external/glfw/include
+-IC:/dev/adrisdb/include/database -IC:/dev/adrisdb/src/database/util -IC:/dev/adrisdb/include

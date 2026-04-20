@@ -40,7 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/dev/adrisdb/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/include/database/cmake_install.cmake")
-  include("C:/dev/adrisdb/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/external/glfw/cmake_install.cmake")
+  include("C:/dev/adrisdb/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/src/database/util/cmake_install.cmake")
 
 endif()
 

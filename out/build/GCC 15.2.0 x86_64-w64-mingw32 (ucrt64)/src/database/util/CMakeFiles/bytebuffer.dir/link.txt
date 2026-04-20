@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libbytebuffer.a CMakeFiles/bytebuffer.dir/byte_buffer.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libbytebuffer.a
