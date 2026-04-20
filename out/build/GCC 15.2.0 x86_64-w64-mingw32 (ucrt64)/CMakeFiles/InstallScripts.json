@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/dev/adrisdb/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/cmake_install.cmake",
-		"C:/dev/adrisdb/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/include/database/cmake_install.cmake",
-		"C:/dev/adrisdb/out/build/GCC 15.2.0 x86_64-w64-mingw32 (ucrt64)/src/database/util/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
