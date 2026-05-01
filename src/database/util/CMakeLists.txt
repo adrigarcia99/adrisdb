@@ -1,9 +1,3 @@
-add_library(file file.cpp)
-target_include_directories(file
-    PUBLIC
-        ${CMAKE_SOURCE_DIR}/include
-)
-
 add_library(command command.cpp)
 target_include_directories(command
     PUBLIC
@@ -12,6 +6,12 @@ target_include_directories(command
 
 add_library(statement statement.cpp)
 target_include_directories(statement
+    PUBLIC
+        ${CMAKE_SOURCE_DIR}/include
+)
+
+add_library(helpers helpers.cpp)
+target_include_directories(helpers
     PUBLIC
         ${CMAKE_SOURCE_DIR}/include
 )

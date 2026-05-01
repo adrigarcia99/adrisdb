@@ -18,7 +18,8 @@ private:
 
 public:
     std::string get_type();
-    PrepareResult prepare_statement(std::string input);
+    PrepareResult prepare_statement(std::string const& input);
+    int execute_statement(std::string const& input);
 };
 
 #endif

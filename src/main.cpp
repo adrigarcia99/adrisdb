@@ -3,7 +3,7 @@
 #include "database/util/command.h"
 #include "database/util/statement.h"
 
-int main(void)
+int main()
 {
     std::cout << "Starting AdrisDB" << '\n';
     
@@ -49,6 +49,8 @@ int main(void)
             default:
                 break;
             }
+
+            statement.execute_statement(input);
         }
     }
 
