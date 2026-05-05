@@ -28,6 +28,15 @@ void File::write(std::string content)
     my_file.close();
 }
 
+void File::append(std::string content)
+{
+    std::cout << "Trying to write: " << content << '\n';
+    std::ofstream my_file;
+    my_file.open(this->m_path, std::ios::app);
+    my_file << content + '\n';
+    my_file.close();
+}
+
 void File::loadFile()
 {
     std::cout << "Enter your file path" << '\n';

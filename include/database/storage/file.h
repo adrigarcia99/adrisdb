@@ -14,6 +14,7 @@ public:
     File(std::string path) : m_path { path } {}
     void read();
     void write(std::string content);
+    void append(std::string content);
     void loadFile();
 };
 

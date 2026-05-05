@@ -1,12 +1,16 @@
 #include <iostream>
 #include <string>
+#include "database/database.h"
+#include "database/storage/file.h"
 #include "database/util/command.h"
 #include "database/util/statement.h"
 
 int main()
 {
     std::cout << "Starting AdrisDB" << '\n';
-    
+    Database database {};
+    File file { database.get_base_path() };
+
     std::string input {};
 
     while (true)
@@ -50,7 +54,7 @@ int main()
                 break;
             }
 
-            statement.execute_statement(input);
+            statement.execute_statement(file, input);
         }
     }
 
