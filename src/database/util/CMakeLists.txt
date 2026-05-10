@@ -8,3 +8,4 @@ add_library(helpers helpers.cpp)
 target_include_directories(helpers PUBLIC ${CMAKE_SOURCE_DIR}/include)
 
 target_link_libraries(statement PUBLIC file)
+target_link_libraries(statement PUBLIC tokenizer)

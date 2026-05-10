@@ -14,11 +14,6 @@ enum StatementType {
     INSERT
 };
 
-struct MappedInsert {
-    std::string table_name;
-    std::map<std::string, std::string> column_value;
-};
-
 /* TEST */
 struct Row {
     int id;
